@@ -1,7 +1,7 @@
 # n-gram
 def make_word_bi_gram(text: str):
     word_bi_gram = text.split(' ')
-    return [word_bi_gram[i:i + 2] for i in range(len(word_bi_gram) - 1)]
+    return [word_bi_gram[i:i+2] for i in range(len(word_bi_gram) - 1)]
 
 
 def make_char_bi_gram(text: str):
