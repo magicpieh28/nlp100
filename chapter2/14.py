@@ -1,5 +1,4 @@
 # print nth record
-import os
 from pathlib import Path
 
 
